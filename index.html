@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: plum;
+            height: 90vh;
+        }
+        .weather {
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 8px;
+            width: 450px;
+            text-align: center; 
+        }
+        .weather h2 {
+            text-align: center;
+        }
+        .weather input {
+            width: 75%;
+        }
+        .weather p {
+            margin: 10px 0; 
+        }
+        .weather .weather-icon {
+            display: block;
+            margin: 15px auto; 
+            width: 150px; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="weather">
+        <h2>Weather</h2>
+        <div class="input">
+            <input type="text" placeholder="Search your Country">
+            <button class="search">Search</button>
+            <p class="country">Country name:</p>
+            <p class="speed">Wind speed:</p>
+            <p class="temp">Temperature:</p>
+            <p class="description">Description:</p>
+        </div>
+        <ol></ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
